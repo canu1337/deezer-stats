@@ -1,0 +1,3 @@
+APP_SECRET = 'get your at http://developers.deezer.com'
+APP_ID = 'get your at http://developers.deezer.com'
+LOGIN_REDIRECT_URL = 'http:/yourhost/login/done'

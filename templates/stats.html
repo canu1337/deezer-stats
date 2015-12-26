@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deezer Statistics</title>
+</head>
+<body>
+<h1> Since {{date}}</h1>
+<h1>Top Tracks</h1>
+{% for track in top %}
+    <p>{{ track[0] }} - {{ track[1] }}
+{% endfor %}
+
+<h1>Top Artists</h1>
+{% for artist in top_artist %}
+    <p>{{ artist[0] }} - {{ artist[1] }}
+{% endfor %}
+<h1>Total listened</h1>
+    <p>{{total}}</p>
+</body>
+</html>
